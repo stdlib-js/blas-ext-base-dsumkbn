@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-14)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`bcc704d`](https://github.com/stdlib-js/stdlib/commit/bcc704dd3fcb478859932dbb4909f50f3a401608) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumkbn` [(#3530)](https://github.com/stdlib-js/stdlib/pull/3530) _(by Muhammad Haris, Athan Reines)_
 
 </details>
@@ -34,10 +35,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
