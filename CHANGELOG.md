@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2024-12-28)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`cb750b6`](https://github.com/stdlib-js/stdlib/commit/cb750b6d8686990b958c9f62905dd236c86f98c6) - **docs:** fix C examples in `blas/ext/base/dsumkbn` [(#4315)](https://github.com/stdlib-js/stdlib/pull/4315) _(by Muhammad Haris)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`bcc704d`](https://github.com/stdlib-js/stdlib/commit/bcc704dd3fcb478859932dbb4909f50f3a401608) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumkbn` [(#3530)](https://github.com/stdlib-js/stdlib/pull/3530) _(by Muhammad Haris, Athan Reines)_
 
