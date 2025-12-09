@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-12-09)
 
 <section class="features">
 
@@ -16,12 +16,26 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`7552a5f`](https://github.com/stdlib-js/stdlib/commit/7552a5ff3185a212d94145c41f8da66644c4943f) - address pointer increment bug
+-   [`6ef5cc8`](https://github.com/stdlib-js/stdlib/commit/6ef5cc89460281ddffad651eb0df39166aae9a31) - update implementation to preserve signed zeros
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`58614e9`](https://github.com/stdlib-js/stdlib/commit/58614e9818a663340ffa96c626c0f8173badfded) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumkbn` [(#8908)](https://github.com/stdlib-js/stdlib/pull/8908) _(by Krishna Awasthi)_
+-   [`7552a5f`](https://github.com/stdlib-js/stdlib/commit/7552a5ff3185a212d94145c41f8da66644c4943f) - **fix:** address pointer increment bug _(by Athan Reines)_
+-   [`6ef5cc8`](https://github.com/stdlib-js/stdlib/commit/6ef5cc89460281ddffad651eb0df39166aae9a31) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`5d0823a`](https://github.com/stdlib-js/stdlib/commit/5d0823aa846bd681e9b4ce675521be1af39e5554) - **test:** add zeros tests _(by Athan Reines)_
 -   [`090e47b`](https://github.com/stdlib-js/stdlib/commit/090e47b8d61456a35d74abcb39467e107d34ebe5) - **style:** remove decimals _(by Athan Reines)_
@@ -40,9 +54,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Krishna Awasthi
 -   Muhammad Haris
 -   Philipp Burckhardt
 
