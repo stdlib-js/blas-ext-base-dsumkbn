@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-09)
+## 0.3.0 (2026-01-29)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`58614e9`](https://github.com/stdlib-js/stdlib/commit/58614e9818a663340ffa96c626c0f8173badfded) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumkbn` [(#8908)](https://github.com/stdlib-js/stdlib/pull/8908) _(by Krishna Awasthi)_
 -   [`7552a5f`](https://github.com/stdlib-js/stdlib/commit/7552a5ff3185a212d94145c41f8da66644c4943f) - **fix:** address pointer increment bug _(by Athan Reines)_
 -   [`6ef5cc8`](https://github.com/stdlib-js/stdlib/commit/6ef5cc89460281ddffad651eb0df39166aae9a31) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
