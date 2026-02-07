@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dsumkbn/tags). For example,
+
+```javascript
 import dsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn@v0.3.1-deno/mod.js';
 ```
 
@@ -145,7 +150,7 @@ var v = dsumkbn.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn@v0.3.1-deno/mod.js';
+import dsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn@deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
